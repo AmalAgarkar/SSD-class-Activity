@@ -1,92 +1,150 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>About Me — Amal Agarkar</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Me — Amal Agarkar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background: #f9fafb;
+      color: #333;
+    }
+    header, footer {
+      text-align: center;
+      padding: 1rem;
+      background: #111827;
+      color: #fff;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h1, h2 {
+      color: #1f2937;
+    }
+    .profile {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .profile img {
+      border-radius: 50%;
+      border: 3px solid #4b5563;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 1rem;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-<h1>About Me</h1>
+  <header>
+    <h1>About Me</h1>
+  </header>
 
+  <main>
+    <!-- Profile -->
+    <section class="profile">
+      <img src="amal.jpeg" alt="Photo of Amal Agarkar" width="150" height="150">
+      <h2>Amal Agarkar</h2>
+      <p>Age: 23</p>
+      <p>Student • Hyderabad, Telangana</p>
+      <p>Email: <a href="mailto:amalagarkar@gmail.com">amalagarkar@gmail.com</a> | Phone: +91 8827966984</p>
+    </section>
 
-<!-- Profile -->
-<img src="amal.jpeg" alt="Profile Picture" width="150" height="150">
-<h2>Amal Agarkar</h2>
-<p>Age- 23</p>
-<p>Student • Hyderabad, Telangana</p>
-<p>Email: amalagarkar@gmail.com | Phone: +91 8827966984</p>
+    <!-- About -->
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I am a student from IIIT Hyderabad, passionate about cyber security and web technologies.  
+        I have experience building and contributing to projects like <strong>Valid Cyber</strong>.  
+        My interests include securing web applications, exploring emerging threats, and developing solutions that make the digital world safer.
+      </p>
+    </section>
 
+    <!-- Education -->
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <strong>M.Tech in Computer Science and Information Security</strong><br>
+          IIIT Hyderabad — 2025 – <br>
+          Relevant coursework: —
+        </li>
+        <li>
+          <strong>B.Tech in Information Technology</strong><br>
+          SVKM's NMIMS — 2020 – 2024<br>
+          Relevant coursework: Data Structures, Algorithms, DBMS, Operating Systems.
+        </li>
+        <li><strong>HSC</strong><br> Shri Balaji Public School — 2018 – 2020</li>
+        <li><strong>SSC</strong><br> Little World School — 2007 – 2018</li>
+      </ul>
+    </section>
 
-<h2>About Me</h2>
-<p>
-I am a student from IIIT Hyderabad.<br>
-I am passionate about cyber security and web technologies, with experience in building and contributing to projects like <strong>Valid Cyber</strong>. <br>
-My interests include securing web applications, learning about emerging threats, and developing solutions that make the digital space safer for everyone.
-</p>
+    <!-- Experience -->
+    <section>
+      <h2>Experience</h2>
+      <ul>
+        <li>
+          <strong>Intern — Solmeyvn Software</strong><br>
+          Jan 2024 – June 2024<br>
+          • Built and maintained the Valid Cyber website.<br>
+          • Developed responsive pages and improved user experience.
+        </li>
+        <li>
+          <strong>Trainee — DRDO</strong><br>
+          May 2023 – July 2023<br>
+          • Implemented a Hindi Library Management System.
+        </li>
+      </ul>
+    </section>
 
+    <!-- Skills -->
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Python</li>
+        <li>HTML & CSS</li>
+        <li>PHP</li>
+        <li>C++</li>
+        <li>SQL</li>
+      </ul>
+    </section>
 
-<h2>Education</h2>
-<ul>
-<li>
-<strong>M.Tech in Computer Science and Information Security</strong><br>
-SVKM's NMIMS — 2025 – <br>
-Relevant coursework: 
-</li>
-<li>
-<strong>B.Tech in Information Technology</strong><br>
-SVKM's NMIMS — 2020 – 2024<br>
-Relevant coursework: Data Structures, Algorithms, DBMS, Operating Systems.
-</li>
-<li>
-<strong>HSC</strong><br>
-Shri Balaji Public School — 2018 – 2020
-</li>
-<li>
-<strong>SSC</strong><br>
-Little World School — 2007 – 2018
-</li>
-</ul>
+    <!-- Contact -->
+    <section>
+      <h2>Contact</h2>
+      <p>
+        📧 Email: <a href="mailto:amalagarkar@gmail.com">amalagarkar@gmail.com</a><br>
+        🔗 LinkedIn: <a href="https://www.linkedin.com/in/amal-agarkar/" target="_blank">linkedin.com/in/amal-agarkar</a><br>
+        💻 GitHub: <a href="https://github.com/AmalAgarkar" target="_blank">github.com/AmalAgarkar</a>
+      </p>
+    </section>
+  </main>
 
+  <footer>
+    <p>© <span id="year"></span> Amal Agarkar</p>
+  </footer>
 
-<h2>Experience</h2>
-<ul>
-<li>
-<strong>Intern — Solmeyvn Software</strong><br>
-Jan 2024 – June 2024<br>
-- Contributed to building and maintaining the Valid Cyber website.<br>
-- Developed responsive pages and improved user experience.
-</li>
-<li>
-<strong>Trainee — DRDO</strong><br>
-May 2023 – July 2023<br>
-- Implemented a Hindi Library Managemant System<br>
-</li>
-</ul>
-
-
-<h2>Skills</h2>
-<ul>
-<li>Python</li>
-<li>HTML & CSS</li>
-<li>PHP</li>
-<li>C++</li>
-<li>SQL</li>
-</ul>
-
-
-<h2>Contact</h2>
-<p>
-Email: <a href="mailto:amalagarkar@gmail.com">amalagarkar@gmail.com</a><br>
-LinkedIn: <a href="https://www.linkedin.com/in/amal-agarkar/">linkedin.com/in/amal-agarkar/</a><br>
-GitHub: <a href="https://github.com/AmalAgarkar">github.com/AmalAgarkar</a>
-</p>
-
-
-<footer>
-<p>© <span id="y"></span> Amal Agarkar</p>
-</footer>
-
-
-
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
